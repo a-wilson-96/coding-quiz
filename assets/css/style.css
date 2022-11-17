@@ -1,0 +1,124 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.highscore-button {
+  text-align: left;
+  font-weight: bolder;
+  position: relative;
+}
+
+.go-back {
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+header {
+  padding-bottom: 5rem;;
+}
+
+.time-left {
+  text-align: right;
+  position: relative;
+}
+
+h1 {
+  font-size: 250%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+body {
+  text-align: center;
+}
+
+p {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  font-size: 125%;
+  padding-bottom: 2rem;
+}
+
+button {
+  color: white;
+  background-color: purple;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+button:active {
+  transform: translateY(8px);
+  background-color: brown;
+}
+
+.wrapper {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: #f3edfc;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 2px solid #ccc;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+input[type="text"] {
+  font-size: 100%;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 2px solid #ccc;
+}
